@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailsViewController.h"
 
-@interface SettingsViewController : UIViewController
+
+@interface SettingsViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) NSArray *itemsArray;
+
+
+-(void)fillTheTablesData;
+-(void)showMyAlert;
 
 @end

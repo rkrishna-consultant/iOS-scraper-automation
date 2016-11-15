@@ -8,195 +8,195 @@
 	<dict>
 		<key>input</key>
 		<string>{
-  "bcTrail" : {
-    "searchKey" : "",
-    "bctIdentifierKey" : "02-11-201618:00:22",
-    "breadcrumb" : [
+  &quot;bcTrail&quot; : {
+    &quot;searchKey&quot; : &quot;&quot;,
+    &quot;bctIdentifierKey&quot; : &quot;02-11-201618:00:22&quot;,
+    &quot;breadcrumb&quot; : [
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]",
-        "state" : "AcquisitionWebViewController",
-        "textValue" : "",
-        "action" : "click"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, -1}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, -1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]",
-        "state" : "AcquisitionWebViewController",
-        "textValue" : "",
-        "action" : ""
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, 1}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, 1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]",
-        "state" : "AcquisitionWebViewController",
-        "textValue" : "",
-        "action" : ""
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, -1}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, -1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]",
-        "state" : "AcquisitionWebViewController",
-        "textValue" : "",
-        "action" : ""
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, 1}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, 1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]",
-        "state" : "AcquisitionWebViewController",
-        "textValue" : "",
-        "action" : ""
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationBar[0]+UIButton[0]",
-        "state" : "AcquisitionWebViewController",
-        "textValue" : "",
-        "action" : "click"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationBar[0]+UIButton[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, -1}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, -1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, 1}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, 1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, 0}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, 0}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, -1}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, -1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]",
-        "state" : "AcquisitionWebViewController",
-        "textValue" : "",
-        "action" : "click"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, 1}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, 1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]",
-        "state" : "AcquisitionWebViewController",
-        "textValue" : "",
-        "action" : "UILongPressGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UILongPressGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, 1}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, 1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, -1}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, -1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, 0}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, 0}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]",
-        "state" : "AcquisitionWebViewController",
-        "textValue" : "",
-        "action" : "click"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]",
-        "state" : "AcquisitionWebViewController",
-        "textValue" : "",
-        "action" : "UILongPressGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UILongPressGestureRecognizer&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]",
-        "state" : "AcquisitionWebViewController",
-        "textValue" : "",
-        "action" : "click"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
       },
       {
-        "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]",
-        "state" : "AcquisitionWebViewController",
-        "panDirection" : "{0, 1}",
-        "textValue" : "",
-        "action" : "UIPanGestureRecognizer"
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, 1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
       }
     ],
-    "launchConfig" : {
-      "delay" : "1.500000,3.000000",
-      "shouldWait" : "1"
+    &quot;launchConfig&quot; : {
+      &quot;delay&quot; : &quot;1.500000,3.000000&quot;,
+      &quot;shouldWait&quot; : &quot;1&quot;
     },
-    "scrapeInput" : {
-      "state" : "LoginViewController",
-      "action" : "UIPanGestureRecognizer",
-      "ancestry" : "UIScrollView+UIView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UIView+UIView+UIWindow"
+    &quot;scrapeInput&quot; : {
+      &quot;state&quot; : &quot;LoginViewController&quot;,
+      &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;,
+      &quot;ancestry&quot; : &quot;UIScrollView+UIView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UIView+UIView+UIWindow&quot;
     }
   },
-  "entityAccessMethod" : [
+  &quot;entityAccessMethod&quot; : [
     {
-      "elementId" : "UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+UIScrollView[0]",
-      "state" : "LoginViewController",
-      "panDirection" : "{1, 1}",
-      "ancestry" : "UIScrollView+UIView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UIView+UIView+UIWindow",
-      "action" : "UIPanGestureRecognizer"
+      &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+UIScrollView[0]&quot;,
+      &quot;state&quot; : &quot;LoginViewController&quot;,
+      &quot;panDirection&quot; : &quot;{1, 1}&quot;,
+      &quot;ancestry&quot; : &quot;UIScrollView+UIView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UIView+UIView+UIWindow&quot;,
+      &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
     }
   ],
-  "SupportedDeeplinkTypes" : [
-    "bct"
+  &quot;SupportedDeeplinkTypes&quot; : [
+    &quot;bct&quot;
   ],
-  "editions" : [
+  &quot;editions&quot; : [
     {
-      "Version" : "774",
-      "Platform" : "iOS",
-      "bundleId" : "com.netflix.Netflix"
+      &quot;Version&quot; : &quot;774&quot;,
+      &quot;Platform&quot; : &quot;iOS&quot;,
+      &quot;bundleId&quot; : &quot;com.netflix.Netflix&quot;
     }
   ]
 }</string>

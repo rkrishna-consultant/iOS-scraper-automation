@@ -17,8 +17,7 @@
 
 - (void)viewDidLoad {
     self.title = @"Quixey App Launcher";
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemOrganize target:self action:@selector(settingsChanged)];
-    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed: @"settings.png"] style:UIBarButtonItemStylePlain target:self action:@selector(settingsChanged)];
     
     appsListArray = @[
                                     @{@"concept":@"search product name on amazon", @"appName":@"amazon", @"bundleId":@"com.amazon.Amazon"},
