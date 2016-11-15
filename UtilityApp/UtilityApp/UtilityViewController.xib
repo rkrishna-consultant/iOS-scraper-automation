@@ -246,7 +246,7 @@
                     </connections>
                 </button>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UM3-W3-7LO">
-                    <rect key="frame" x="330" y="565" width="181" height="17"/>
+                    <rect key="frame" x="328" y="565" width="181" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Connected to Remote Device" id="juq-Rq-wYO">
                         <font key="font" metaFont="smallSystem"/>
