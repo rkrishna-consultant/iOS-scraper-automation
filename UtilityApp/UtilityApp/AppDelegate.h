@@ -16,7 +16,7 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate,NSUserNotificationCenterDelegate>
 @property (weak) IBOutlet NSWindow *window;
 
-//Sample commit
+//Sample commit in Dev
 - (void)showNotificationWithMsg:(NSString *)msg;
 -(void)showSimpleAlertMessage:(NSString*)msg;
 - (NSString *)browseFile;
