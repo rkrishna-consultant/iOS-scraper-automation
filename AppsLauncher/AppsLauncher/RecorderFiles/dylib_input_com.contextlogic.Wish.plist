@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>method</key>
+	<string>search</string>
+	<key>payload</key>
+	<dict>
+		<key>input</key>
+		<string>{
+  "bcTrail" : {
+    "searchKey" : "Shoes",
+    "bctIdentifierKey" : "02-11-201618:06:44",
+    "breadcrumb" : [
+      {
+        "elementId" : "UIView+UIView[2]+UILayoutContainerView[0]+UINavigationBar[0]+UIButton[1]",
+        "state" : "WishMainMenuViewController+WishFilterFeedViewController",
+        "textValue" : "",
+        "action" : "click"
+      },
+      {
+        "elementId" : "UIView+UIView[2]+UILayoutContainerView[0]+UINavigationBar[0]+WishLoadingSearchBar[0]+UIView[0]+UISearchBarTextField[0]",
+        "state" : "WishMainMenuViewController+WishMainMenuSearchViewController",
+        "textValue" : "",
+        "action" : "click"
+      },
+      {
+        "elementId" : "UIView+UIView[2]+UILayoutContainerView[0]+UINavigationBar[0]+WishLoadingSearchBar[0]",
+        "state" : "WishMainMenuViewController+WishMainMenuSearchViewController",
+        "textValue" : "",
+        "action" : "click"
+      },
+      {
+        "elementId" : "UIView+UIView[2]+UILayoutContainerView[0]+UINavigationBar[0]+WishLoadingSearchBar[0]+UIView[0]+UISearchBarTextField[0]",
+        "state" : "WishMainMenuViewController+WishMainMenuSearchViewController",
+        "textValue" : "Shoes",
+        "action" : "EnterSearchText"
+      },
+      {
+        "state" : "WishMainMenuViewController+WishMainMenuSearchViewController",
+        "elementId" : "UIView+UIView[2]+UILayoutContainerView[0]+UINavigationBar[0]+WishLoadingSearchBar[0]+UIView[0]+UISearchBarTextField[0]",
+        "delay" : "3.000000,8.000000",
+        "shouldWait" : "1",
+        "textValue" : "Shoes",
+        "action" : "SearchWithText"
+      }
+    ],
+    "launchConfig" : {
+      "delay" : "1.500000,3.000000",
+      "shouldWait" : "1"
+    },
+    "scrapeInput" : {
+      "state" : "WishMainMenuViewController+WishProductFeedViewController",
+      "action" : "click",
+      "ancestry" : "WishProductFeedItemCell+WishGridView+UIView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UIView+UIView+UIWindow"
+    }
+  },
+  "entityAccessMethod" : [
+    {
+      "elementId" : "UIView+UIView[2]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WishGridView[0]+WishProductFeedItemCell[17]",
+      "state" : "WishMainMenuViewController+WishProductFeedViewController",
+      "ancestry" : "WishProductFeedItemCell+WishGridView+UIView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UIView+UIView+UIWindow",
+      "action" : "click"
+    }
+  ],
+  "SupportedDeeplinkTypes" : [
+    "bct"
+  ],
+  "editions" : [
+    {
+      "Version" : "379",
+      "Platform" : "iOS",
+      "bundleId" : "com.contextlogic.Wish"
+    }
+  ]
+}</string>
+		<key>mode</key>
+		<integer>3</integer>
+	</dict>
+</dict>
+</plist>

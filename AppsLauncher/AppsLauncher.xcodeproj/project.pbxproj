@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E49E3461DCC7A7D00ABD0D2 /* dylib_input_com.pandora.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E49E3451DCC7A7D00ABD0D2 /* dylib_input_com.pandora.plist */; };
+		9E9A07821DCB668600C03F88 /* dylib_input_com.gasbuddymobile.gasbuddy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E9A07811DCB668600C03F88 /* dylib_input_com.gasbuddymobile.gasbuddy.plist */; };
+		9ED0FE271DCA1A2B001B8153 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0FE261DCA1A2B001B8153 /* main.m */; };
+		9ED0FE2A1DCA1A2B001B8153 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0FE291DCA1A2B001B8153 /* AppDelegate.m */; };
+		9ED0FE301DCA1A2B001B8153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE2E1DCA1A2B001B8153 /* Main.storyboard */; };
+		9ED0FE321DCA1A2B001B8153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE311DCA1A2B001B8153 /* Assets.xcassets */; };
+		9ED0FE351DCA1A2B001B8153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE331DCA1A2B001B8153 /* LaunchScreen.storyboard */; };
+		9ED0FE3F1DCA1C5E001B8153 /* ExecuteCmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0FE3D1DCA1C5E001B8153 /* ExecuteCmd.swift */; };
+		9ED0FE421DCB089E001B8153 /* ListAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0FE411DCB089E001B8153 /* ListAppsViewController.m */; };
+		9ED0FE471DCB128F001B8153 /* QuixeyAgentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0FE461DCB128F001B8153 /* QuixeyAgentHelper.m */; };
+		9ED0FE531DCB144E001B8153 /* dylib_input_argo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE491DCB144E001B8153 /* dylib_input_argo.plist */; };
+		9ED0FE541DCB144E001B8153 /* dylib_input_com.amazon.Amazon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE4A1DCB144E001B8153 /* dylib_input_com.amazon.Amazon.plist */; };
+		9ED0FE551DCB144E001B8153 /* dylib_input_com.atebits.Tweetie2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE4B1DCB144E001B8153 /* dylib_input_com.atebits.Tweetie2.plist */; };
+		9ED0FE561DCB144E001B8153 /* dylib_input_com.contextlogic.Wish.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE4C1DCB144E001B8153 /* dylib_input_com.contextlogic.Wish.plist */; };
+		9ED0FE571DCB144E001B8153 /* dylib_input_com.facebook.Facebook.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE4D1DCB144E001B8153 /* dylib_input_com.facebook.Facebook.plist */; };
+		9ED0FE581DCB144E001B8153 /* dylib_input_com.ihandysoft.flashlight.led.pro.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE4E1DCB144E001B8153 /* dylib_input_com.ihandysoft.flashlight.led.pro.plist */; };
+		9ED0FE591DCB144E001B8153 /* dylib_input_com.mint.internal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE4F1DCB144E001B8153 /* dylib_input_com.mint.internal.plist */; };
+		9ED0FE5A1DCB144E001B8153 /* dylib_input_com.netflix.Netflix.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE501DCB144E001B8153 /* dylib_input_com.netflix.Netflix.plist */; };
+		9ED0FE5B1DCB144E001B8153 /* dylib_input_com.overstock.app.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE511DCB144E001B8153 /* dylib_input_com.overstock.app.plist */; };
+		9ED0FE5C1DCB144E001B8153 /* dylib_input_com.spotify.client.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0FE521DCB144E001B8153 /* dylib_input_com.spotify.client.plist */; };
+		9ED0FE5F1DCB47A9001B8153 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0FE5E1DCB47A9001B8153 /* SettingsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E49E3451DCC7A7D00ABD0D2 /* dylib_input_com.pandora.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylib_input_com.pandora.plist; sourceTree = "<group>"; };
+		9E9A07811DCB668600C03F88 /* dylib_input_com.gasbuddymobile.gasbuddy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = dylib_input_com.gasbuddymobile.gasbuddy.plist; path = ../../../RecorderFiles/dylib_input_com.gasbuddymobile.gasbuddy.plist; sourceTree = "<group>"; };
+		9ED0FE221DCA1A2B001B8153 /* AppsLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppsLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED0FE261DCA1A2B001B8153 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9ED0FE281DCA1A2B001B8153 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9ED0FE291DCA1A2B001B8153 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9ED0FE2F1DCA1A2B001B8153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ED0FE311DCA1A2B001B8153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ED0FE341DCA1A2B001B8153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ED0FE361DCA1A2B001B8153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED0FE3C1DCA1C5D001B8153 /* AppsLauncher-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppsLauncher-Bridging-Header.h"; sourceTree = "<group>"; };
+		9ED0FE3D1DCA1C5E001B8153 /* ExecuteCmd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecuteCmd.swift; sourceTree = "<group>"; };
+		9ED0FE3E1DCA1C5E001B8153 /* NSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTask.h; sourceTree = "<group>"; };
+		9ED0FE401DCB089E001B8153 /* ListAppsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListAppsViewController.h; sourceTree = "<group>"; };
+		9ED0FE411DCB089E001B8153 /* ListAppsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListAppsViewController.m; sourceTree = "<group>"; };
+		9ED0FE451DCB128F001B8153 /* QuixeyAgentHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuixeyAgentHelper.h; sourceTree = "<group>"; };
+		9ED0FE461DCB128F001B8153 /* QuixeyAgentHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuixeyAgentHelper.m; sourceTree = "<group>"; };
+		9ED0FE491DCB144E001B8153 /* dylib_input_argo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylib_input_argo.plist; sourceTree = "<group>"; };
+		9ED0FE4A1DCB144E001B8153 /* dylib_input_com.amazon.Amazon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylib_input_com.amazon.Amazon.plist; sourceTree = "<group>"; };
+		9ED0FE4B1DCB144E001B8153 /* dylib_input_com.atebits.Tweetie2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylib_input_com.atebits.Tweetie2.plist; sourceTree = "<group>"; };
+		9ED0FE4C1DCB144E001B8153 /* dylib_input_com.contextlogic.Wish.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylib_input_com.contextlogic.Wish.plist; sourceTree = "<group>"; };
+		9ED0FE4D1DCB144E001B8153 /* dylib_input_com.facebook.Facebook.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylib_input_com.facebook.Facebook.plist; sourceTree = "<group>"; };
+		9ED0FE4E1DCB144E001B8153 /* dylib_input_com.ihandysoft.flashlight.led.pro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylib_input_com.ihandysoft.flashlight.led.pro.plist; sourceTree = "<group>"; };
+		9ED0FE4F1DCB144E001B8153 /* dylib_input_com.mint.internal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylib_input_com.mint.internal.plist; sourceTree = "<group>"; };
+		9ED0FE501DCB144E001B8153 /* dylib_input_com.netflix.Netflix.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylib_input_com.netflix.Netflix.plist; sourceTree = "<group>"; };
+		9ED0FE511DCB144E001B8153 /* dylib_input_com.overstock.app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylib_input_com.overstock.app.plist; sourceTree = "<group>"; };
+		9ED0FE521DCB144E001B8153 /* dylib_input_com.spotify.client.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylib_input_com.spotify.client.plist; sourceTree = "<group>"; };
+		9ED0FE5D1DCB47A9001B8153 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9ED0FE5E1DCB47A9001B8153 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ED0FE1F1DCA1A2B001B8153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ED0FE191DCA1A2B001B8153 = {
+			isa = PBXGroup;
+			children = (
+				9ED0FE241DCA1A2B001B8153 /* AppsLauncher */,
+				9ED0FE231DCA1A2B001B8153 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ED0FE231DCA1A2B001B8153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ED0FE221DCA1A2B001B8153 /* AppsLauncher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ED0FE241DCA1A2B001B8153 /* AppsLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				9ED0FE281DCA1A2B001B8153 /* AppDelegate.h */,
+				9ED0FE291DCA1A2B001B8153 /* AppDelegate.m */,
+				9ED0FE401DCB089E001B8153 /* ListAppsViewController.h */,
+				9ED0FE411DCB089E001B8153 /* ListAppsViewController.m */,
+				9ED0FE5D1DCB47A9001B8153 /* SettingsViewController.h */,
+				9ED0FE5E1DCB47A9001B8153 /* SettingsViewController.m */,
+				9ED0FE451DCB128F001B8153 /* QuixeyAgentHelper.h */,
+				9ED0FE461DCB128F001B8153 /* QuixeyAgentHelper.m */,
+				9ED0FE3D1DCA1C5E001B8153 /* ExecuteCmd.swift */,
+				9ED0FE3E1DCA1C5E001B8153 /* NSTask.h */,
+				9ED0FE2E1DCA1A2B001B8153 /* Main.storyboard */,
+				9ED0FE311DCA1A2B001B8153 /* Assets.xcassets */,
+				9ED0FE331DCA1A2B001B8153 /* LaunchScreen.storyboard */,
+				9ED0FE361DCA1A2B001B8153 /* Info.plist */,
+				9ED0FE481DCB144E001B8153 /* RecorderFiles */,
+				9ED0FE251DCA1A2B001B8153 /* Supporting Files */,
+				9ED0FE3C1DCA1C5D001B8153 /* AppsLauncher-Bridging-Header.h */,
+			);
+			path = AppsLauncher;
+			sourceTree = "<group>";
+		};
+		9ED0FE251DCA1A2B001B8153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ED0FE261DCA1A2B001B8153 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9ED0FE481DCB144E001B8153 /* RecorderFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9E49E3451DCC7A7D00ABD0D2 /* dylib_input_com.pandora.plist */,
+				9E9A07811DCB668600C03F88 /* dylib_input_com.gasbuddymobile.gasbuddy.plist */,
+				9ED0FE491DCB144E001B8153 /* dylib_input_argo.plist */,
+				9ED0FE4A1DCB144E001B8153 /* dylib_input_com.amazon.Amazon.plist */,
+				9ED0FE4B1DCB144E001B8153 /* dylib_input_com.atebits.Tweetie2.plist */,
+				9ED0FE4C1DCB144E001B8153 /* dylib_input_com.contextlogic.Wish.plist */,
+				9ED0FE4D1DCB144E001B8153 /* dylib_input_com.facebook.Facebook.plist */,
+				9ED0FE4E1DCB144E001B8153 /* dylib_input_com.ihandysoft.flashlight.led.pro.plist */,
+				9ED0FE4F1DCB144E001B8153 /* dylib_input_com.mint.internal.plist */,
+				9ED0FE501DCB144E001B8153 /* dylib_input_com.netflix.Netflix.plist */,
+				9ED0FE511DCB144E001B8153 /* dylib_input_com.overstock.app.plist */,
+				9ED0FE521DCB144E001B8153 /* dylib_input_com.spotify.client.plist */,
+			);
+			path = RecorderFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ED0FE211DCA1A2B001B8153 /* AppsLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED0FE391DCA1A2B001B8153 /* Build configuration list for PBXNativeTarget "AppsLauncher" */;
+			buildPhases = (
+				9ED0FE1E1DCA1A2B001B8153 /* Sources */,
+				9ED0FE1F1DCA1A2B001B8153 /* Frameworks */,
+				9ED0FE201DCA1A2B001B8153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppsLauncher;
+			productName = AppsLauncher;
+			productReference = 9ED0FE221DCA1A2B001B8153 /* AppsLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ED0FE1A1DCA1A2B001B8153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Quixey;
+				TargetAttributes = {
+					9ED0FE211DCA1A2B001B8153 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = H74JCW3Q2H;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9ED0FE1D1DCA1A2B001B8153 /* Build configuration list for PBXProject "AppsLauncher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ED0FE191DCA1A2B001B8153;
+			productRefGroup = 9ED0FE231DCA1A2B001B8153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ED0FE211DCA1A2B001B8153 /* AppsLauncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ED0FE201DCA1A2B001B8153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED0FE5C1DCB144E001B8153 /* dylib_input_com.spotify.client.plist in Resources */,
+				9ED0FE581DCB144E001B8153 /* dylib_input_com.ihandysoft.flashlight.led.pro.plist in Resources */,
+				9E9A07821DCB668600C03F88 /* dylib_input_com.gasbuddymobile.gasbuddy.plist in Resources */,
+				9E49E3461DCC7A7D00ABD0D2 /* dylib_input_com.pandora.plist in Resources */,
+				9ED0FE591DCB144E001B8153 /* dylib_input_com.mint.internal.plist in Resources */,
+				9ED0FE561DCB144E001B8153 /* dylib_input_com.contextlogic.Wish.plist in Resources */,
+				9ED0FE351DCA1A2B001B8153 /* LaunchScreen.storyboard in Resources */,
+				9ED0FE571DCB144E001B8153 /* dylib_input_com.facebook.Facebook.plist in Resources */,
+				9ED0FE541DCB144E001B8153 /* dylib_input_com.amazon.Amazon.plist in Resources */,
+				9ED0FE321DCA1A2B001B8153 /* Assets.xcassets in Resources */,
+				9ED0FE5B1DCB144E001B8153 /* dylib_input_com.overstock.app.plist in Resources */,
+				9ED0FE5A1DCB144E001B8153 /* dylib_input_com.netflix.Netflix.plist in Resources */,
+				9ED0FE301DCA1A2B001B8153 /* Main.storyboard in Resources */,
+				9ED0FE551DCB144E001B8153 /* dylib_input_com.atebits.Tweetie2.plist in Resources */,
+				9ED0FE531DCB144E001B8153 /* dylib_input_argo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ED0FE1E1DCA1A2B001B8153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED0FE471DCB128F001B8153 /* QuixeyAgentHelper.m in Sources */,
+				9ED0FE2A1DCA1A2B001B8153 /* AppDelegate.m in Sources */,
+				9ED0FE3F1DCA1C5E001B8153 /* ExecuteCmd.swift in Sources */,
+				9ED0FE5F1DCB47A9001B8153 /* SettingsViewController.m in Sources */,
+				9ED0FE271DCA1A2B001B8153 /* main.m in Sources */,
+				9ED0FE421DCB089E001B8153 /* ListAppsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9ED0FE2E1DCA1A2B001B8153 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ED0FE2F1DCA1A2B001B8153 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ED0FE331DCA1A2B001B8153 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ED0FE341DCA1A2B001B8153 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ED0FE371DCA1A2B001B8153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9ED0FE381DCA1A2B001B8153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ED0FE3A1DCA1A2B001B8153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = H74JCW3Q2H;
+				INFOPLIST_FILE = AppsLauncher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quixey.AppsLauncher.AppsLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppsLauncher/AppsLauncher-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9ED0FE3B1DCA1A2B001B8153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = H74JCW3Q2H;
+				INFOPLIST_FILE = AppsLauncher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quixey.AppsLauncher.AppsLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppsLauncher/AppsLauncher-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ED0FE1D1DCA1A2B001B8153 /* Build configuration list for PBXProject "AppsLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED0FE371DCA1A2B001B8153 /* Debug */,
+				9ED0FE381DCA1A2B001B8153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ED0FE391DCA1A2B001B8153 /* Build configuration list for PBXNativeTarget "AppsLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED0FE3A1DCA1A2B001B8153 /* Debug */,
+				9ED0FE3B1DCA1A2B001B8153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ED0FE1A1DCA1A2B001B8153 /* Project object */;
+}

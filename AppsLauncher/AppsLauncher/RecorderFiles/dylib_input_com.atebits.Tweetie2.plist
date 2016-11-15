@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>method</key>
+	<string>search</string>
+	<key>payload</key>
+	<dict>
+		<key>input</key>
+		<string>{
+  &quot;bcTrail&quot; : {
+    &quot;searchKey&quot; : &quot;&quot;,
+    &quot;bctIdentifierKey&quot; : &quot;03-11-201614:21:32&quot;,
+    &quot;breadcrumb&quot; : [
+      {
+        &quot;elementId&quot; : &quot;TFNScreenBoundsLockedContainerView+UIView[0]+UIView[0]+UIView[0]+UILayoutContainerView[0]+TFNNavigationBar[0]+TFNBarButtonItemButton[1]&quot;,
+        &quot;state&quot; : &quot;T1HomeTimelineItemsViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
+      },
+      {
+        &quot;elementId&quot; : &quot;UITransitionView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+T1ComposeContainerView[0]+T1PhoneComposeView[0]+T1ComposeRichTextView[0]+TFNTwitterPlaceholderTextView[0]&quot;,
+        &quot;state&quot; : &quot;T1PhoneComposeViewController+T1PhotoGalleryViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
+      },
+      {
+        &quot;elementId&quot; : &quot;UITransitionView+UIView[0]+T1ComposeUnderKeyboardView[0]+T1ComposeButtonBarView[0]+TFNButton[0]&quot;,
+        &quot;state&quot; : &quot;T1PhoneComposeViewController+T1PhotoGalleryViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
+      },
+	{
+	&quot;action&quot;: &quot;EnterText&quot;, 
+	&quot;delay&quot;: &quot;1.00000,8.000000&quot;, 
+	&quot;elementId&quot;: &quot;UITransitionView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+T1ComposeContainerView[0]+T1PhoneComposeView[0]+T1ComposeRichTextView[0]+TFNTwitterPlaceholderTextView[0]&quot;, 
+	&quot;shouldWait&quot;: &quot;1&quot;, 
+	&quot;textValue&quot;: &quot;Good Evening!!!&quot;
+	},
+	{
+      &quot;elementId&quot; : &quot;UITransitionView+UIView[0]+T1ComposeUnderKeyboardView[0]+T1ComposeButtonBarView[0]+TFNButton[0]&quot;,
+      &quot;state&quot; : &quot;T1PhoneComposeViewController+T1PhotoGalleryViewController&quot;,
+      &quot;ancestry&quot; : &quot;TFNButton+T1ComposeButtonBarView+T1ComposeUnderKeyboardView+UIView+UITransitionView+UIWindow&quot;,
+      &quot;action&quot; : &quot;click&quot;
+    }
+
+    ],
+    &quot;launchConfig&quot; : {
+      &quot;delay&quot; : &quot;1.500000,3.000000&quot;,
+      &quot;shouldWait&quot; : &quot;1&quot;
+    },
+    &quot;scrapeInput&quot; : {
+      &quot;state&quot; : &quot;T1PhoneComposeViewController+T1PhotoGalleryViewController&quot;,
+      &quot;action&quot; : &quot;click&quot;,
+      &quot;ancestry&quot; : &quot;TFNButton+T1ComposeButtonBarView+T1ComposeUnderKeyboardView+UIView+UITransitionView+UIWindow&quot;
+    }
+  },
+  &quot;entityAccessMethod&quot; : [
+    {
+      &quot;elementId&quot; : &quot;UITransitionView+UIView[0]+T1ComposeUnderKeyboardView[0]+T1ComposeButtonBarView[0]+TFNButton[0]&quot;,
+      &quot;state&quot; : &quot;T1PhoneComposeViewController+T1PhotoGalleryViewController&quot;,
+      &quot;ancestry&quot; : &quot;TFNButton+T1ComposeButtonBarView+T1ComposeUnderKeyboardView+UIView+UITransitionView+UIWindow&quot;,
+      &quot;action&quot; : &quot;click&quot;
+    }
+  ],
+  &quot;SupportedDeeplinkTypes&quot; : [
+    &quot;bct&quot;
+  ],
+  &quot;editions&quot; : [
+    {
+      &quot;Version&quot; : &quot;6.60&quot;,
+      &quot;Platform&quot; : &quot;iOS&quot;,
+      &quot;bundleId&quot; : &quot;com.atebits.Tweetie2&quot;
+    }
+  ]
+}</string>
+		<key>mode</key>
+		<integer>3</integer>
+	</dict>
+</dict>
+</plist>

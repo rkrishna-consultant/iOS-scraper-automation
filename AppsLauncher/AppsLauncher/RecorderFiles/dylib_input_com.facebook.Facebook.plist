@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>method</key>
+	<string>search</string>
+	<key>payload</key>
+	<dict>
+		<key>input</key>
+		<string>{
+  &quot;bcTrail&quot; : {
+    &quot;searchKey&quot; : &quot;&quot;,
+    &quot;bctIdentifierKey&quot; : &quot;02-11-201618:05:11&quot;,
+    &quot;breadcrumb&quot; : [
+      {
+        &quot;elementId&quot; : &quot;UITransitionView+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+FBInsetWrappingView[0]+UIView[0]+FBWKWebView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]&quot;,
+        &quot;state&quot; : &quot;FBSSOViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
+      },
+      {
+        &quot;elementId&quot; : &quot;FBTopBarAndContentView+FBStackView[0]+FBCoveringSplitView[0]+UIView[2]+UIView[0]+FBTabBarContainerView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+FBFriendsNearbyLocationUnavailableView[0]+FBButton[0]&quot;,
+        &quot;state&quot; : &quot;FBFriendsNearbyViewController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
+      }
+    ],
+    &quot;launchConfig&quot; : {
+      &quot;delay&quot; : &quot;1.500000,3.000000&quot;,
+      &quot;shouldWait&quot; : &quot;1&quot;
+    },
+    &quot;scrapeInput&quot; : {
+      &quot;state&quot; : &quot;FBSSOViewController&quot;,
+      &quot;action&quot; : &quot;click&quot;,
+      &quot;ancestry&quot; : &quot;WKContentView+WKScrollView+WKWebView+FBWKWebView+UIView+FBInsetWrappingView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UITransitionView+FBShakeWindow&quot;
+    }
+  },
+  &quot;entityAccessMethod&quot; : [
+    {
+      &quot;elementId&quot; : &quot;UITransitionView+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+FBInsetWrappingView[0]+UIView[0]+FBWKWebView[0]+WKWebView[0]+WKScrollView[0]+WKContentView[0]&quot;,
+      &quot;state&quot; : &quot;FBSSOViewController&quot;,
+      &quot;ancestry&quot; : &quot;WKContentView+WKScrollView+WKWebView+FBWKWebView+UIView+FBInsetWrappingView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UITransitionView+FBShakeWindow&quot;,
+      &quot;action&quot; : &quot;click&quot;
+    }
+  ],
+  &quot;SupportedDeeplinkTypes&quot; : [
+    &quot;bct&quot;
+  ],
+  &quot;editions&quot; : [
+    {
+      &quot;Version&quot; : &quot;36454510&quot;,
+      &quot;Platform&quot; : &quot;iOS&quot;,
+      &quot;bundleId&quot; : &quot;com.facebook.Facebook&quot;
+    }
+  ]
+}</string>
+		<key>mode</key>
+		<integer>3</integer>
+	</dict>
+</dict>
+</plist>

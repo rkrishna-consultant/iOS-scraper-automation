@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>method</key>
+	<string>search</string>
+	<key>payload</key>
+	<dict>
+		<key>input</key>
+		<string>{
+  &quot;bcTrail&quot; : {
+    &quot;searchKey&quot; : &quot;shakira&quot;,
+    &quot;bctIdentifierKey&quot; : &quot;04-11-201613:10:19&quot;,
+    &quot;breadcrumb&quot; : [
+      {
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UIView[0]+UILayoutContainerView[0]+UITabBar[0]+UITabBarButton[2]&quot;,
+        &quot;state&quot; : &quot;SPNavigationController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
+      },
+      {
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UIView[0]+UILayoutContainerView[0]+UITransitionView[0]+UIViewControllerWrapperView[0]+UILayoutContainerView[0]+SPDarkNavigationBar[0]+SPTSearchBar[0]+UIView[0]+UISearchBarTextField[0]&quot;,
+        &quot;state&quot; : &quot;SPNavigationController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
+      },
+      {
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UIView[0]+UILayoutContainerView[0]+UITransitionView[0]+UIViewControllerWrapperView[0]+UILayoutContainerView[0]+SPDarkNavigationBar[0]+SPTSearchBar[0]&quot;,
+        &quot;state&quot; : &quot;SPNavigationController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
+      },
+      {
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UIView[0]+UILayoutContainerView[0]+UITransitionView[0]+UIViewControllerWrapperView[0]+UILayoutContainerView[0]+SPDarkNavigationBar[0]+SPTSearchBar[0]+UIView[0]+UISearchBarTextField[0]&quot;,
+        &quot;state&quot; : &quot;SPNavigationController&quot;,
+        &quot;textValue&quot; : &quot;shakira&quot;,
+        &quot;action&quot; : &quot;EnterSearchText&quot;
+      },
+      {
+        &quot;state&quot; : &quot;SPNavigationController&quot;,
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UIView[0]+UILayoutContainerView[0]+UITransitionView[0]+UIViewControllerWrapperView[0]+UILayoutContainerView[0]+SPDarkNavigationBar[0]+SPTSearchBar[0]+UIView[0]+UISearchBarTextField[0]&quot;,
+        &quot;delay&quot; : &quot;3.000000,8.000000&quot;,
+        &quot;shouldWait&quot; : &quot;1&quot;,
+        &quot;textValue&quot; : &quot;shakira&quot;,
+        &quot;action&quot; : &quot;SearchWithText&quot;
+      },
+      {
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UIView[0]+UILayoutContainerView[0]+UITransitionView[0]+UIViewControllerWrapperView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+SPTSearchTableViewControllerView[0]+SPTTableView[0]+SPTTableViewCell[0,1]&quot;,
+        &quot;state&quot; : &quot;SPNavigationController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
+      },
+      {
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UIView[0]+UILayoutContainerView[0]+UITransitionView[0]+UIViewControllerWrapperView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+SPTTableView[0]+SPTEntityTableHeaderView[0]+SPTActionButton[0]&quot;,
+        &quot;state&quot; : &quot;SPNavigationController&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;click&quot;
+      }
+    ],
+    &quot;launchConfig&quot; : {
+      &quot;delay&quot; : &quot;14.500000,16.000000&quot;,
+      &quot;shouldWait&quot; : &quot;1&quot;
+    },
+    &quot;scrapeInput&quot; : {
+      &quot;state&quot; : &quot;SPNavigationController&quot;,
+      &quot;action&quot; : &quot;click&quot;,
+      &quot;ancestry&quot; : &quot;SPTActionButton+SPTEntityTableHeaderView+SPTTableView+UIView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UIViewControllerWrapperView+UITransitionView+UILayoutContainerView+UIView+UIView+UIView+MainWindow&quot;
+    }
+  },
+  &quot;entityAccessMethod&quot; : [
+    {
+      &quot;elementId&quot; : &quot;UIView+UIView[0]+UIView[0]+UILayoutContainerView[0]+UITransitionView[0]+UIViewControllerWrapperView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+SPTTableView[0]+SPTEntityTableHeaderView[0]+SPTActionButton[0]&quot;,
+      &quot;state&quot; : &quot;SPNavigationController&quot;,
+      &quot;ancestry&quot; : &quot;SPTActionButton+SPTEntityTableHeaderView+SPTTableView+UIView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UIViewControllerWrapperView+UITransitionView+UILayoutContainerView+UIView+UIView+UIView+MainWindow&quot;,
+      &quot;action&quot; : &quot;click&quot;
+    }
+  ],
+  &quot;SupportedDeeplinkTypes&quot; : [
+    &quot;bct&quot;
+  ],
+  &quot;editions&quot; : [
+    {
+      &quot;Version&quot; : &quot;650001665&quot;,
+      &quot;Platform&quot; : &quot;iOS&quot;,
+      &quot;bundleId&quot; : &quot;com.spotify.client&quot;
+    }
+  ]
+}</string>
+		<key>mode</key>
+		<integer>3</integer>
+	</dict>
+</dict>
+</plist>

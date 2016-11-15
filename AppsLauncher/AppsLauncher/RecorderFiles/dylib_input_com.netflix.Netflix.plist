@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>method</key>
+	<string>search</string>
+	<key>payload</key>
+	<dict>
+		<key>input</key>
+		<string>{
+  &quot;bcTrail&quot; : {
+    &quot;searchKey&quot; : &quot;&quot;,
+    &quot;bctIdentifierKey&quot; : &quot;02-11-201618:02:41&quot;,
+    &quot;location&quot;: {
+	&quot;latitude&quot;: &quot;36.7783&quot;,
+	&quot;longitude&quot;: &quot;119.4179&quot;
+    },
+    &quot;breadcrumb&quot; : [
+      {
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, -1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
+      },
+      {
+        &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+WKWebView[0]+WKScrollView[0]&quot;,
+        &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+        &quot;panDirection&quot; : &quot;{0, 1}&quot;,
+        &quot;textValue&quot; : &quot;&quot;,
+        &quot;action&quot; : &quot;UIPanGestureRecognizer&quot;
+      }
+    ],
+    &quot;launchConfig&quot; : {
+      &quot;delay&quot; : &quot;1.500000,3.000000&quot;,
+      &quot;shouldWait&quot; : &quot;1&quot;
+    },
+    &quot;scrapeInput&quot; : {
+      &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+      &quot;action&quot; : &quot;click&quot;,
+      &quot;ancestry&quot; : &quot;UIButton+UINavigationBar+UILayoutContainerView+UIView+UIView+UIWindow&quot;
+    }
+  },
+  &quot;entityAccessMethod&quot; : [
+    {
+      &quot;elementId&quot; : &quot;UIView+UIView[0]+UILayoutContainerView[0]+UINavigationBar[0]+UIButton[0]&quot;,
+      &quot;state&quot; : &quot;AcquisitionWebViewController&quot;,
+      &quot;ancestry&quot; : &quot;UIButton+UINavigationBar+UILayoutContainerView+UIView+UIView+UIWindow&quot;,
+      &quot;action&quot; : &quot;click&quot;
+    }
+  ],
+  &quot;SupportedDeeplinkTypes&quot; : [
+    &quot;bct&quot;
+  ],
+  &quot;editions&quot; : [
+    {
+      &quot;Version&quot; : &quot;774&quot;,
+      &quot;Platform&quot; : &quot;iOS&quot;,
+      &quot;bundleId&quot; : &quot;com.netflix.Netflix&quot;
+    }
+  ]
+}</string>
+		<key>mode</key>
+		<integer>3</integer>
+	</dict>
+</dict>
+</plist>

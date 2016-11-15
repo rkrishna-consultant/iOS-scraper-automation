@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>method</key>
+	<string>search</string>
+	<key>payload</key>
+	<dict>
+		<key>input</key>
+		<string>{
+  "bcTrail" : {
+    "searchKey" : "",
+    "bctIdentifierKey" : "02-11-201618:11:40",
+    "breadcrumb" : [
+      {
+        "elementId" : "UILayoutContainerView+UITransitionView[0]+UIViewControllerWrapperView[0]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+UIView[0]+UIButton[1]",
+        "state" : "MMMainNavigationController",
+        "textValue" : "",
+        "action" : "click"
+      },
+      {
+        "elementId" : "UITransitionView+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+UITableView[0]+UITableViewCell[1,0]",
+        "state" : "AddFIController",
+        "textValue" : "",
+        "action" : "click"
+      },
+      {
+        "elementId" : "UITransitionView+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[1]+_UIParallaxDimmingView[0]+UIView[0]+UITableView[0]+UITableViewCell[0,0]+UITableViewCellContentView[0]+UITextField[0]",
+        "state" : "",
+        "textValue" : "",
+        "action" : "EnterSearchText"
+      }
+    ],
+    "launchConfig" : {
+      "delay" : "1.500000,3.000000",
+      "shouldWait" : "1"
+    },
+    "scrapeInput" : {
+      "state" : "",
+      "action" : "EnterSearchText",
+      "ancestry" : "UITextField+UITableViewCellContentView+UITableViewCell+UITableViewWrapperView+UITableView+UIView+_UIParallaxDimmingView+UIView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UITransitionView+UIWindow"
+    }
+  },
+  "entityAccessMethod" : [
+    {
+      "elementId" : "UITransitionView+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[1]+_UIParallaxDimmingView[0]+UIView[0]+UITableView[0]+UITableViewCell[0,0]+UITableViewCellContentView[0]+UITextField[0]",
+      "state" : "",
+      "ancestry" : "UITextField+UITableViewCellContentView+UITableViewCell+UITableViewWrapperView+UITableView+UIView+_UIParallaxDimmingView+UIView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UITransitionView+UIWindow",
+      "action" : "EnterSearchText"
+    }
+  ],
+  "SupportedDeeplinkTypes" : [
+    "bct"
+  ],
+  "editions" : [
+    {
+      "Version" : "43.9976.4012",
+      "Platform" : "iOS",
+      "bundleId" : "com.mint.internal"
+    }
+  ]
+}</string>
+		<key>mode</key>
+		<integer>3</integer>
+	</dict>
+</dict>
+</plist>

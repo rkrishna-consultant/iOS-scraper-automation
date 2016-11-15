@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>method</key>
+	<string>search</string>
+	<key>payload</key>
+	<dict>
+		<key>input</key>
+		<string>{
+  "bcTrail" : {
+    "searchKey" : "",
+    "bctIdentifierKey" : "08-11-201618:11:41",
+    "breadcrumb" : [
+      {
+        "elementId" : "UIView+UIView[1]+UILayoutContainerView[0]+UINavigationBar[0]+UIView[0]+UIButton[0]",
+        "state" : "PMStationListTopViewController",
+        "textValue" : "",
+        "action" : "click"
+      },
+      {
+        "elementId" : "UIView+UIView[0]+UITableView[0]+PMTabMenuTableViewCell[1,0]",
+        "state" : "",
+        "textValue" : "",
+        "action" : "click"
+      },
+      {
+        "elementId" : "UIView+UIView[1]+UIView[0]",
+        "state" : "PMInboxTopViewController",
+        "textValue" : "",
+        "action" : "click"
+      },
+      {
+        "elementId" : "UIView+UIView[1]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+UIView[1]+UIView[0]+UIView[1]+UIView[1]+UIButton[3]",
+        "state" : "PMNowPlayingPhoneViewController",
+        "textValue" : "",
+        "action" : "click"
+      }
+    ],
+    "launchConfig" : {
+      "delay" : "1.500000,3.000000",
+      "shouldWait" : "1"
+    },
+    "scrapeInput" : {
+      "state" : "PMNowPlayingPhoneViewController",
+      "action" : "click",
+      "ancestry" : "UIButton+UIView+UIView+UIView+UIView+UIView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UIView+UIView+UIWindow"
+    }
+  },
+  "entityAccessMethod" : [
+    {
+      "elementId" : "UIView+UIView[1]+UILayoutContainerView[0]+UINavigationTransitionView[0]+UIViewControllerWrapperView[0]+UIView[0]+UIView[1]+UIView[0]+UIView[1]+UIView[1]+UIButton[3]",
+      "state" : "PMNowPlayingPhoneViewController",
+      "ancestry" : "UIButton+UIView+UIView+UIView+UIView+UIView+UIViewControllerWrapperView+UINavigationTransitionView+UILayoutContainerView+UIView+UIView+UIWindow",
+      "action" : "click"
+    }
+  ],
+  "SupportedDeeplinkTypes" : [
+    "bct"
+  ],
+  "editions" : [
+    {
+      "Version" : "1674",
+      "Platform" : "iOS",
+      "bundleId" : "com.pandora"
+    }
+  ]
+}</string>
+		<key>mode</key>
+		<integer>3</integer>
+	</dict>
+</dict>
+</plist>

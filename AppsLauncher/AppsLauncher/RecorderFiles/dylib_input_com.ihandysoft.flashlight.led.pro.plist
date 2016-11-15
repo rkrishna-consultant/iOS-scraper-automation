@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>method</key>
+	<string>search</string>
+	<key>payload</key>
+	<dict>
+		<key>input</key>
+		<string>{
+  "editions" : [
+    {
+      "bundleId" : "com.ihandysoft.flashlight.led.pro",
+      "Platform" : "iOS",
+      "Version" : "2.0.1.1"
+    }
+  ],
+  "bcTrail" : {
+    "bctIdentifierKey" : "02-11-201617:57:36",
+    "scrapeInput" : {
+      "state" : "",
+      "action" : "click",
+      "ancestry" : "CakeButton+UIView+UIView+UIWindow"
+    },
+    "breadcrumb" : [
+      {
+        "action" : "click",
+        "elementId" : "UIView+UIView[0]+CakeButton[0]",
+        "textValue" : "",
+        "state" : ""
+      },
+      {
+        "action" : "UIPanGestureRecognizer",
+        "elementId" : "UIView+UIView[0]+CompassLEDFrequencyView[0]+UIScrollView[0]",
+        "textValue" : "",
+        "state" : "",
+        "panDirection" : "{-1, 0}"
+      }
+    ],
+    "launchConfig" : {
+      "delay" : "1.500000,3.000000",
+      "shouldWait" : "1"
+    },
+    "searchKey" : ""
+  },
+  "entityAccessMethod" : [
+    {
+      "action" : "click",
+      "elementId" : "UIView+UIView[0]+CakeButton[0]",
+      "state" : "",
+      "ancestry" : "CakeButton+UIView+UIView+UIWindow"
+    }
+  ],
+  "SupportedDeeplinkTypes" : [
+    "bct"
+  ]
+}</string>
+		<key>mode</key>
+		<integer>3</integer>
+	</dict>
+</dict>
+</plist>
