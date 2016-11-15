@@ -40,6 +40,7 @@
     }
 }
 
+//For Getting all Classes
 - (NSArray*)getAllClasses
 {
     NSLog(@"getAllClasses called");
@@ -84,7 +85,7 @@
     return [classeNames copy];
 }
 
-
+//For Getting all Methods in a class
 - (NSMutableArray *)getMethodsForClass:(Class)clz
 {
     NSLog(@"getMethodsForClass");

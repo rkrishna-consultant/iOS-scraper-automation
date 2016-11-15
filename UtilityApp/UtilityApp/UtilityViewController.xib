@@ -69,7 +69,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NTk-as-ZON">
-                    <rect key="frame" x="96" y="535" width="139" height="22"/>
+                    <rect key="frame" x="96" y="535" width="113" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="192.168.1.21" drawsBackground="YES" id="yaI-fX-WTE">
                         <font key="font" metaFont="system"/>
@@ -78,7 +78,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e7T-7r-4GX">
-                    <rect key="frame" x="96" y="500" width="139" height="22"/>
+                    <rect key="frame" x="96" y="500" width="113" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="root" drawsBackground="YES" id="ac2-HD-3Rr">
                         <font key="font" metaFont="system"/>
