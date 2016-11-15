@@ -155,7 +155,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EgD-Ry-ZBe">
-                    <rect key="frame" x="21" y="434" width="457" height="2"/>
+                    <rect key="frame" x="22" y="434" width="457" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" drawsBackground="YES" id="V9P-6K-2Eu">
                         <font key="font" metaFont="system"/>
