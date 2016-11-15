@@ -17,6 +17,9 @@
 @property (weak) IBOutlet NSWindow *window;
 
 //Sample commit in develop branch
+//Sample commit
+//Sample commit2
+
 - (void)showNotificationWithMsg:(NSString *)msg;
 -(void)showSimpleAlertMessage:(NSString*)msg;
 - (NSString *)browseFile;
